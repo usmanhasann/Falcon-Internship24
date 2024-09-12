@@ -1,13 +1,16 @@
 .header{
 width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* below prop take the Taskmate heading to center by using flexBox */
+    justify-content: center;   
   padding: 0px 0px 0px 22px;
   color: #525252;
-  font-size: 22px;
-  margin-bottom: 70px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
   align-items: center;
   min-height: 70px;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 25px ;
   }
+  

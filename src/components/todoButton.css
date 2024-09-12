@@ -1,0 +1,18 @@
+
+.todobtn{
+    margin:15px 0px 0px 0px;
+    justify-content: space-around;
+    display: flex;
+}
+.add{
+    height: 45px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: cadetblue;
+}
+.reset{
+    height: 45px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: cadetblue;
+}

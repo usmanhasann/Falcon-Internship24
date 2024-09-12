@@ -12,25 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.taskList{
+/* .taskList{
   padding: 22px 0px 0px 1px;
-}
+} */
 .head{
   display: flex;
   justify-content: space-evenly;
-  border: 2px orange ;
-  border-style: double  ;
-  padding: 15px;
-  color: tomato;
-  background-color: bisque;
-
+    color: tomato;
+padding: 15px;
+  margin-bottom: 25px;
 }
 .todo{
-  border: 9px solid cadetblue;
-  background-color:  darkcyan;
+
+font-weight: 700;
+font-size: 20px;
+border: 2px tomato solid;
+border-radius: 60px;
+
 }
 .count{
-  border: 9px solid cadetblue;
-  background-color:  teal;
-
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px tomato solid;
+  border-radius: 60px;
+  
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../index.css";
-
+import "../components/todoInput.css";
+import "../components/todoButton.css";
 export const TodoTask = () => {
   const [input, setInput] = useState("");
   const [tasks, setTask] = useState([]);
@@ -34,12 +35,14 @@ export const TodoTask = () => {
                 value={input}
               />
             </div>
-            <button className="add" onClick={handleSubmit}>
-              Add
-            </button>
-            <button className="reset" onClick={handleReset} value={tasks}>
-              Reset
-            </button>
+            <div className="todobtn">
+              <button className="add" onClick={handleSubmit}>
+                Add
+              </button>
+              <button className="reset" onClick={handleReset} value={tasks}>
+                Reset
+              </button>
+            </div>
           </div>
         </form>
         <ul className="taskitem">
